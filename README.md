@@ -2,7 +2,7 @@
 Skype bot in Python
 
 # Requirements:
-skype4pi
+Skype4py
 
 # License:
 GNU Public License v2.0
