@@ -50,7 +50,7 @@ ajuda = """Bund4sB0t Help
 !email2skype [email] : search for a skype using a email
 !geoip [ip] : geoip info of an IP"""
 
-def commandos(mensagem, estado):
+def comandos(mensagem, estado):
     if estado == 'SENT' or (estado == 'RECEIVED'):
         print mensagem.FromDisplayName + ":", mensagem.Body
         if mensagem.Body[:1] == "!":
@@ -112,7 +112,7 @@ def geoip(mensagem, msg):
     mensagem.Chat.SendMessage(msg1)
 
 skype = Skype4Py.Skype()
-skype.OnMessageStatus = commandos
+skype.OnMessageStatus = comandos
 
 if skype.Client.IsRunning == False:
     skype.Client.Start()
