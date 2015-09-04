@@ -2,6 +2,7 @@
 Skype bot in Python
 
 # Requirements:
+Python 2
 Skype4py
 
 # License:
