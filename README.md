@@ -1,4 +1,4 @@
-# Bund4sB0t-Python
+# SkypePythonBot
 Skype bot in Python
 
 # Dependence
