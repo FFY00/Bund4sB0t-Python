@@ -3,11 +3,11 @@ SkypePythonBot [![Follow](https://img.shields.io/twitter/follow/MyClaraOswin.svg
 
 Skype bot in Python
 
-# Dependencies
+### Dependencies
 
 Skype4py
 
-# License
+### License
 
 GNU Public License v2.0
 
